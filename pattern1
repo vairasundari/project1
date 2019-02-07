@@ -1,0 +1,19 @@
+import java.util.*;
+public class Pattern{
+public static void main(String[] args){
+int n,i,j,count;
+Scanner s=new Scanner(System.in);
+n=s.nextInt();
+for(i=n;i>=1;i--){
+count=0;
+for(j=i;j<=n;j++){
+System.out.print(j+" ");
+count++;
+}
+while(1<=n-count){
+System.out.print(n+" ");
+count++;
+}
+System.out.println("\n");
+}
+}}
